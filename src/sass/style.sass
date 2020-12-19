@@ -1,0 +1,480 @@
+    
+@import "main_color"
+
+    
+body
+    margin: 0px 0px
+    padding: 0px 0px 
+    width: 100%
+    font-family: 'Arial'
+    font-weight: bold
+    color: #9092A7
+    background: #1A1F33;
+    border-radius: 50px;
+    background: radial-gradient(circle at 80px 40px, #1A1F33, #171923, #1A1F33);
+    background-blend-mode: overlay, normal, normal;         
+    .sub-backg
+        background: radial-gradient(17.68% 50% at 50% 50%, rgba(255, 255, 255, 0.0376047) 0%, rgba(0, 0, 0, 5e-05) 100%);
+        box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.5), inset 0px 1px 400px rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+
+.promo
+    padding: 0
+    display: grid
+    gap: 0px
+    grid-template-columns: 1fr 4fr 1fr
+    grid-template-rows: 105px 
+    &__logo
+        margin-left: 50px
+        grid-column:1/2
+        font-size: 32px
+        color: #44DFAB
+        font-weight: bold
+        display: flex
+        align-items: center
+        .txt
+            margin-left: 7px
+            display: block
+            align-self: center
+    .menu
+        font-family: 'Arial'
+        font-weight: bold
+        font-size: 14px
+        text-decoration: none
+        align-self: center
+        justify-content: center
+        text-align: center
+        &__link
+            margin-left: 26px
+            margin-right: 26px
+            text-decoration: none
+            color: #9092A7         
+        &__dropDownMenu
+            margin-left: 0px
+            margin-right: 0px
+
+
+.first-descr
+    text-align: center
+    &__h1
+        margin-top: 137px
+        margin-bottom: 0
+        font-size: 32px
+        color: white
+    &__h2
+        margin-top: 11px
+        margin-bottom: 98px
+        font-size: 23px
+        color:#44DFAB
+    .small-descr
+        //margin: 0px auto
+        //padding-left: 139px
+        //padding-right: 139px
+        //padding-top: 0px
+        //padding-bottom: 0px
+        min-height: auto
+        display: grid
+        grid-template-columns: 328px 328px 328px
+        grid-template-rows: 280px
+        gap: 56px
+        justify-content: center
+        text-align: left
+        &__item
+            max-width: 328px
+            .text_fz14
+                text-align: left
+                margin-top: 25px
+                font-size: 14px
+                &_1
+                    font-size: 14px 
+                    margin-top: 5px
+            span   
+                color: #44DFAB
+        h3
+            font-size: 24px
+            color: white
+    .icons-text
+        margin-top: 64px
+        margin-bottom: 0px
+        display: flex
+        margin-right: 322px
+        margin-left: 322px
+        justify-content: space-between
+        align-items: center
+        .items       
+            &__icon
+                height: 110px
+            &__text 
+                width: 196px           
+                font-size: 16px
+            &__text1
+                color: #44DFAB
+            &__text2
+                color: white
+            &__title
+                color: white
+                font-size: 24px
+
+
+.get-started
+    display: flex
+    margin-top: 64px
+    padding: 45px 105px 0px 130px
+    background: rgba(255, 255, 255, 0.01)
+    &__title
+        font-size: 16px
+    &__rocket
+        display: inline
+    .start-info  
+        margin-top: 0px
+        margin-left: 130px   
+        padding-top: 0px
+        padding-bottom: 0px
+        min-height: auto
+        flex-direction: column
+        display: flex
+        align-items: flex-end
+        text-align: right
+        &__txt
+            margin-top: 54px
+            max-height: 40px
+            max-width: 770px
+            font-size: 16px
+            span   
+                color: #44DFAB
+        h1
+            margin-top: 20px;
+            font-size: 24px
+            color: white
+        &__btn
+            background: linear-gradient(180deg, #0DF592 0%, #44DFAB 100%);
+            mix-blend-mode: normal;
+            opacity: 0.9;
+            border-radius: 24px;
+            border-radius: 24px
+            margin-top: 45px 
+            height: 46px
+            text-align: center
+            align-items: center 
+            display: block
+            width: 170px
+            color: black
+            font-size: 20px
+            font-weight: 700  
+
+
+.reasons-block    
+    text-align: center
+    padding: 0px 0px 0px 0px;
+    position: relative
+    &__title
+        margin-top: 115px
+        font-size: 32px
+        color: white
+        span
+           color: #44DFAB
+    &__shadowTitle
+        margin: 0px
+        position: absolute
+        top: -52px
+        left: 571px
+        font-size: 72px
+        color: rgba(255,255,255,0.09)
+        filter: drop-shadow(0 0 3px rgba(0,0,0,1))
+        z-index: -1
+    &__shadowSubTitle
+        margin: 0px
+        padding: 0px
+        position: absolute
+        top: 251px
+        left: 150px
+        font-size: 236px
+        color: rgba(0, 0, 0, 0.7)
+        filter: drop-shadow(0 0 3px rgba(0, 0, 0, 7))
+        text-shadow: 0px 0px 40px;
+        opacity: 0.4
+        z-index: -1
+    &__txt
+        margin-top: 40px
+        margin-left: 160px
+        margin-right: 160px
+        font-size: 16px
+    .icons-text
+        //margin-top: 64px
+        margin: 64px auto 0px auto
+        //margin-bottom: 0px
+        display: grid
+        grid-template-columns: 196px 196px 196px
+        grid-template-rows: 343px
+        margin-right: 322px
+        margin-left: 322px
+        justify-content: center
+        align-items: flex-start
+        gap: 104px
+    .items
+        text-align: center       
+        &__icon
+            height: 110px
+        &__text
+            margin-top: 15px 
+            width: 196px           
+            font-size: 16px
+        &__text1
+            color: #44DFAB
+        &__text2
+            color: white
+        &__title
+            margin: 0px
+            color: white
+            font-size: 24px
+    .small-descr
+        margin: 84px auto 0px auto
+        //padding-left: 139px
+        //padding-right: 139px
+        //padding-top: 0px
+        //padding-bottom: 0px
+        min-height: auto
+        display: grid
+        grid-template-columns: 328px 328px 328px
+        grid-template-rows: auto
+        gap: 56px
+        justify-content: center
+        text-align: left
+        &__item
+            max-width: 328px
+            .text_fz14
+                text-align: left
+                margin-top: 25px
+                font-size: 14px
+                &_1
+                    font-size: 14px 
+                    margin-top: 5px
+            span   
+                color: #44DFAB
+        h3
+            font-size: 24px
+            color: white
+
+
+.stay-current
+    text-align: center
+    margin-top: 114px
+    &__title
+        color: white
+        margin: 0px auto 0px auto
+        font-size: 48px
+        span
+            color: #44DFAB
+    &__text
+        min-height: 40px
+        margin-top: 30px
+        margin-left: 335px
+        margin-right: 335px
+    .icons-text
+        margin: 64px auto 0px auto
+        display: grid
+        grid-template-columns: 240px 240px 240px
+        grid-template-rows: minmax(330px, 1fr)
+        gap: 168px
+        justify-content: center
+        //align-items: flex-start
+        .items
+            text-align: center       
+            &__icon
+                width: 240px
+                height: 149px
+            &__text
+                min-height: 54px 
+                text-align: left
+                margin-top: 24px
+                width: 240px           
+                font-size: 16px
+                color: white
+            &__text1
+                color: #44DFAB
+            &__text2
+                color: white
+            &__title
+                color: white
+                font-size: 24px
+            &__subtext
+                text-align: left
+                margin-top: 40px
+                font-size: 12px
+            &__btn
+                background-color: #1A1F33;
+                color: white
+                font-size: 14px
+                min-width: 240px
+                min-height: 40px
+                border: 2px solid #6FFFC3
+                border-radius: 5px;
+                margin-top: 25px
+
+        &__scroll
+            //зелёный скролл            
+
+
+.stay-up-to-date
+    text-align: center
+    align-items: center
+    min-height: 456px
+    &__title
+        font-size: 32px
+        color: white
+        span
+            color: #44DFAB
+    &__text
+        min-height: 40px
+        margin-left: 325px
+        margin-right: 325px
+        margin-top: 27px
+    .forms
+        display: grid
+        grid-template-rows: 200px
+        grid-template-columns: 309px 309px 309px
+        gap: 104px
+        justify-content: center
+        padding: 0px
+        margin: 32px 137px 0px 140px
+        color: white
+        .title-form
+            &__title
+                text-align: left
+                font-size: 16px
+                margin-top: 38px
+                margin-left: 44px
+                color: white
+                span
+                    color: #44DFAB
+            &__form
+                margin-top: 34px
+                text-align: left
+                margin-left: 44px
+                border: none
+                width: 240px
+                //border-bottom: 3px solid #00FFCD
+            &__form1
+                background-color: inherit
+                border: none
+                outline: none
+                color: #ffffff
+                font-size: 14px
+            &__form1::placeholder
+                color: #9092A7
+                font-size: 14px                
+                //border-bottom: 3px solid linear-gradient(45deg, #EECFBA, #C5DDE8);
+            &__divider
+                margin-top: 0
+                text-align: left
+                margin-left: 44px
+                height: 4px
+                width: 240px
+                background: linear-gradient(90deg, #ffffff, #00FFCD)
+                border-radius: 6px
+            &__btn
+                display: flex
+                justify-content: left
+                margin: 20px 0px 0px 44px
+                width: 120px
+                height: 32px
+                background: radial-gradient(650.09% 100% at 50% 0%, #00FF72 0%, #00FF9D 100%);
+                mix-blend-mode: normal
+                opacity: 0.75
+                border-radius: 20px
+                border: none
+
+        .title-form1
+            background: rgba(216, 216, 216, 0.1);
+            border-radius: 5px
+            text-align: left
+            position: relative
+            &__img
+                margin: 34px 0px 0px 44px
+            &__title
+                font-size: 16px
+                margin-top: 0px
+                color: white
+            &__form
+                margin: 24px 0px 0px 44px   
+                width: 309px
+                color: white    
+                font-weight: bold
+            &__form1
+                background-color: inherit
+                border: none
+                outline: none
+                color: white
+                text-decoration: none
+                font-size: 12px
+                font-weight: bold
+            &__text
+                height: 40px
+                font-size: 16px
+                margin: 27px
+            &__divider
+                margin-top: 0
+                text-align: left
+                margin-left: 44px
+                height: 4px
+                width: 240px
+                background: #7289DA
+                border-radius: 6px
+            &__btn
+                margin: 20px 0px 0px 44px
+                width: 120px
+                height: 32px
+                background: #7289DA
+                border-radius: 20px
+                border: none
+                bottom: 32px
+                right: 24px
+                position: absolute
+            &__text-count
+                bottom: 44px
+                right: 181px
+                position: absolute
+                color: #9092A7
+                font-size: 10px
+
+
+.footer
+    display: grid
+    grid-template-rows: 250px 
+    grid-template-columns: 300px 300px 300px
+    gap: 100px
+    justify-content: center
+    min-height: 346px
+    background: rgba(0, 0, 0, 0.2)
+    .link-list1, .link-list2
+        text-align: left
+        margin-top: 41px
+        &__title
+            margin-top: 0px
+            font-size: 20px
+            color: white
+            span
+                color: $main-color
+        &__link1
+            color: #19DE8C
+            text-decoration: none
+        &__link
+            margin-bottom: 9px
+            display: flex
+            text-decoration: none 
+            color: #9092A7 
+    .link-list1
+        justify-self: end
+        align-self: flex-start
+    .link-list2
+        align-self: flex-start
+        justify-self: center
+    &__img
+        margin-top: 41px
+        display: flex
+        height: 115px
+        width: 90px
+        justify-self: center;
+
+
+@import "media"

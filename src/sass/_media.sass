@@ -51,10 +51,9 @@
                 font-size: 16px
                 span   
                     color: #44DFAB
-            h1
+            &__title
                 margin-top: 20px;
                 font-size: 24px
-                color: white
             &__btn
                 background: linear-gradient(180deg, #0DF592 0%, #44DFAB 100%);
                 mix-blend-mode: normal;
@@ -454,8 +453,86 @@
 
 //767 ГОТОВО
 
-@media (max-width: 480px)
-    color: white
+@media (max-width: 481px)
+
+    .first-descr
+        .icons-text
+            margin: 8% 8% 0px 8%
+            flex-direction: column
+            justify-content: flex-start
+            align-items: center
+            .items
+                width: 100%
+                &__icon
+                    height: 50%
+                    width: 50%
+                &__text
+                    margin: 0px 2% 0px 2% 
+                    text-align: center
+                    width: 100%
+
+    .reasons-block
+        &__shadowTitle
+            display: none
+        &__shadowSubTitle
+            display: none
+
+
+    .stay-up-to-date
+        .forms
+            gap: 20px
+            grid-template-rows: 1fr 1fr 1fr
+            grid-template-columns: 90%
+            margin-bottom: 20px  
+            .title-form1
+                width: 100%
+                grid-row: 3/4
+                grid-column: 1/2
+                margin: 0px
+                &__divider
+                    width: 80%
+            .title-form
+                display: flex                
+                &__divider
+                    display: block
+                &__btn
+                    position: static
+                    display: block
+                .title-form__form1
+                    display: block
+
+    .get-started
+        padding: 0px
+        flex-direction: column
+        &__rocket
+            align-self: center
+            display: block
+            width: 280px
+            height: 280px
+        .start-info
+            margin: 8% 8% 0px 8%
+            &__title
+                text-align: center
+                font-size: 30px
+            &__txt
+                text-align: center
+            &__btn
+                align-self: center
+                margin-bottom: 8%
+
+    .stay-up-to-date
+        &__text
+            margin: 8% 8% 0px 8%
+
+
+
+    .footer
+        gap: 20px
+        grid-template-columns: 1fr 1fr
+        grid-template-rows: 1fr
+        &__img
+            display: none
+//481 В ПРОЦЕССЕ
 
 @media (max-width: 320px)
     color: white

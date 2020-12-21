@@ -1,6 +1,6 @@
 
 
-@media (max-width: 1240px)   
+@media (max-width: 1241px)   
 
     .reasons-block    
         &__shadowTitle
@@ -12,7 +12,7 @@
         
 //1240 ГОТОВО
 
-@media (max-width: 1024px)     
+@media (max-width: 1025px)     
 
     .first-descr
         .small-descr
@@ -116,8 +116,9 @@
 
     .stay-current
         &__text
+            width: 80%
+            margin: 30px auto 0px auto
             min-height: 50px
-            margin-top: 30px
         .icons-text
             gap: 60px            
 
@@ -149,8 +150,8 @@
             margin-right: 150px
         .forms
             width: 70%
-            gap: 0px
-            grid-template-rows: auto-fit
+            gap: 10px
+            grid-template-rows: auto-fill
             grid-template-columns: 1fr 1fr 1fr 
             .title-form
                 display: flex
@@ -181,8 +182,6 @@
                     left: 16%
                     margin: 30px 0px 20px 0px
                     display: block
-
-
             .title-form1
                 display: flex
                 flex-direction: column
@@ -196,20 +195,20 @@
                     margin: 0px 0px 0px 20px 
                 &__form
                     display: block
-                    margin: 20px 0px 0px 20px
+                    margin: 40px 0px 0px 20px
                     display: block
                 &__form1
                     display: block
                     font-size: 20px 
                 &__text-count
                     display: block
-                    font-size: 19px
-                    top: 67%
+                    font-size: 16px
+                    top: 74%
                     left: 7%        
                 &__btn
                     height: 20%
                     width: 50%
-                    top: 56%
+                    top: 62%
                     right: 4%
                     margin: 30px 0px 20px 0px
                     display: block
@@ -455,6 +454,89 @@
 
 @media (max-width: 481px)
 
+    .promo
+        display: block
+        .logo
+            margin: 2% auto 0px 4% 
+            &__img
+            text-align: center
+            &__text
+        .menu
+            width: 40%
+            background: rgba(0, 0, 0, 0.8)
+            display: flex
+            position: absolute
+            left: 0%
+            top: 0%
+            flex-direction: column
+            transform: translateX(-100%)
+            align-items: start
+            transition: 0.8s all
+            &__link
+                margin: 40px auto 0px auto
+                margin-top: 40px 
+            &__dropDownMenu
+                margin: 40px auto 20px auto 
+                width: 35%
+                align-self: center
+            &_active
+                width: 40%
+                background: rgba(0, 0, 0, 0.8)
+                display: flex
+                position: absolute
+                left: 0%
+                top: 0%
+                flex-direction: column
+                align-items: start
+                transform: translateX(0%)
+
+        .menu-hamburger
+            display: block
+            position: absolute
+            top: 4%
+            right: 6%
+            height: 50px
+            width: 55px
+            &__elem1
+                display: block
+                background: #ffffff
+                height: 10px
+                width: 100%
+                transition: 0.5s all
+            &__elem2
+                margin-top: 10px
+                display: block
+                background: #ffffff
+                height: 10px
+                width: 100%
+                transition: 0.5s all
+            &__elem3
+                margin-top: 10px
+                display: block
+                background: #ffffff
+                height: 10px
+                width: 100%
+                transition: 0.5s all
+            &_active
+                position: absolute
+                top: 6%
+                right: 20px
+                height: 50px
+                width: 55px
+                .menu-hamburger__elem1
+                    width: 40px
+                    height: 10px
+                    position: absolute
+                    top: 19%
+                    right: 25%
+                    transform: rotate(-45deg)
+                .menu-hamburger__elem2
+                    display: none
+                .menu-hamburger__elem3
+                    width: 40px
+                    height: 10px
+                    transform: rotate(45deg)
+
     .first-descr
         .icons-text
             margin: 8% 8% 0px 8%
@@ -476,7 +558,6 @@
             display: none
         &__shadowSubTitle
             display: none
-
 
     .stay-up-to-date
         .forms
@@ -523,8 +604,21 @@
     .stay-up-to-date
         &__text
             margin: 8% 8% 0px 8%
-
-
+        .forms
+            grid-template-rows: repeat(3, 300px)
+            .title-form
+                &__btn
+                    margin-left: 14%
+                    height: 14%
+            .title-form1
+                height: 80%
+                &__img
+                    height: 20%
+                &__text-count
+                    top: 54%
+                    left: 8%
+                &__btn
+                    margin-top: 10%
 
     .footer
         gap: 20px
@@ -532,9 +626,68 @@
         grid-template-rows: 1fr
         &__img
             display: none
-//481 В ПРОЦЕССЕ
 
-@media (max-width: 320px)
-    color: white
+//481 ГОТОВО
 
-//Я ГЕНИЙ ФРОНТ-ЭНДА
+@media (max-width: 321px)
+    
+    .stay-current
+        &__text
+            width: 90%
+            margin: 30px auto 64px auto
+        .icons-text
+            .items
+                &__text
+                    min-height: auto
+
+    .stay-up-to-date
+        &__title
+            margin-top: 80px
+        .forms
+            margin: 40px auto 0px auto
+            grid-template-columns: 99%
+            .title-form
+                &__title
+                    margin-left: 0px
+                    margin-right: 0px
+                &__form
+                    margin-left: 0px
+                    margin-right: 0px
+                &__divider
+                    margin-left: 0px
+                    margin-right: 0px
+                    width: 100%
+                &__btn
+                    margin-left: 0px
+                    margin-right: 0px
+            .title-form1
+                &__title
+                    margin-left: 0px
+                    margin-right: 0px
+                &__form
+                    margin-left: 0px
+                    margin-right: 0px
+                &__form1
+                    width: 100%
+                    &::placeholder
+                        font-size: 19px
+                &__divider
+                    margin-left: 5px
+                    margin-right: 0px
+                    width: 96%
+                &__btn
+                    margin-top: 20%
+                    margin-left: 0px
+
+    .footer
+        margin-left: 5px
+        margin-right: 5px
+        grid-column: 1fr 1.1fr
+        gap: 0px
+        .link-list1
+            margin-left: 10px
+        .link-list2
+            &__title
+                margin-bottom: 36%
+
+//321 ГОТОВО
